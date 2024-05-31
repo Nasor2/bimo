@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    justify-content: center;
+    display: flex;
+}
+#main{
+    background-color: rgb(37, 173, 159);
+    width:20%;
+    height: 60%;
+    padding: 30px 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+#cara{
+    padding: 60px 15px;
+    border-radius: 30px;
+    border: solid 3px black;
+    background-color: rgba(185, 223, 202);
+    width: 80%;
+    align-items: center;
+    align-self:center ;
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+}
+#ojos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    height: 30px;
+    margin: 0px 60px;
+}
+.ojo{
+    width: 15px;
+    height: 15px;
+    border-color: transparent;
+    border-radius: 20px;
+    background-color: black;
+}
+#boca{
+    display: block;
+    box-sizing: content-box;
+    align-items: center;
+    justify-content: center;
+}
+#boca_boton{
+    width: 100px;
+    padding: 2px;
+    height: 60px;
+    align-items: center;
+    box-sizing: border-box;
+    border: solid;
+    border-width: 4px;
+    border-radius: 0px 0px 50px 50px;
+    background-color: rgb(79, 68, 36);
+}
+#dientes{
+    background-color: white;
+    align-self: center;
+    height: 13px;
+    border-bottom: solid 3px black;
+    border-radius: 0px 0px 2px 2px;
+    width: 100%;
+}
+#lengua_alta{
+    background-color: rgb(158, 161, 134);
+    margin:10px 30px 0px 12px;
+    position: fixed;
+    height: 15px;
+    border-radius:  10px;
+    border-top: solid 3px black;
+    width: 65px;
+}
+#lengua_baja{
+    background-color: rgb(158, 161, 134);
+    margin: 13px 0px 0px 15px;
+    height: 20px;
+    border-radius: 0px 0px 100px 100px;
+    width: 60px;
+}
+#torso{
+    padding: 15px;
+    height: 60%;
+    width: 80%;
+    align-items: center;
+    flex-direction: column;
+}
+#tetas, #parte_media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#teta_larga{
+    width: 60%;
+    border: solid 3px black;
+    height: 13px;
+    border-radius: 10px;
+    background-color: darkslategray;
+}
+#teta_circular{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(1, 70, 125);
+    border: solid 3px black;
+    border-radius: 50px;
+}
+#parte_media{
+    padding: 0px 10px;
+    margin: 10px 0px;
+    height: 150px;
+    width: 100%;
+    flex-direction: row;
+}
+#cruz{
+    height: 60%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.bloq{
+    width: 90%;
+    height: 31%;
+}
+#bloq_sup{
+    border-top: 3px solid black;
+    border-left: 3px solid black;   
+    border-right: 3px solid black;
+}
+#bloq_bot{
+    border-left: 3px solid black;   
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.cru{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(253, 209,78);
+}
+#izq,#der{
+height: 30%;
+}
+#izq{
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+#der{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+#triangulo{
+        width: 0px;
+        height: 0px;
+        margin-left: 70px;
+        border-style: solid;
+        border-width: 0 30px 60px 30px;
+        border-color: transparent transparent #32e0ff transparent;
+        transform: rotate(0deg);
+}
+#boton_vecde{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(112, 186, 100);
+    margin-top: auto;
+    border-radius: 50px;
+    border: 3px solid black;
+}
+#parte_baja{
+    padding: 0px 10px;
+    margin: 10px 0px;
+    height: 90px;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+#botones_iguale{
+    margin-top: 30px;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.boton_igual{
+    width: 65px;
+    height: 15px;
+    border-radius: 20px;
+    border: solid 3px black;
+    background-color: rgb(1, 72, 116);
+}
+#boton_circular_rojo{
+    height: 75px;
+    width: 75px;
+    margin-left: auto;
+    background-color: rgb(236, 59, 69);
+    border-radius: 50px;
+    border: 4px solid black;
+}
